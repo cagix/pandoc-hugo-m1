@@ -1,9 +1,9 @@
-FROM ubuntu
+FROM ubuntu:21.10
 
 # Scripts
-COPY install-packages.sh /root/install-packages.sh
-COPY texlive.profile /root/texlive.profile
-COPY install-texlive.sh /root/install-texlive.sh
+COPY install-packages.sh    /root/install-packages.sh
+COPY texlive.profile        /root/texlive.profile
+COPY install-texlive.sh     /root/install-texlive.sh
 
 # Base Ubuntu Packages
 ENV DEBIAN_FRONTEND noninteractive
