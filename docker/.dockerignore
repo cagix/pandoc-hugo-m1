@@ -1,10 +1,10 @@
-# ignore Makefile
+## ignore Makefile
 Makefile
 
-# ignore Dockerfile
+## ignore Dockerfile
 Dockerfile
 
-# ignore Build Scripts
-install-packages.sh
-install-texlive.sh
-texlive.profile
+## ignore Build Scripts
+#install-packages.sh
+#install-texlive.sh
+#texlive.profile
