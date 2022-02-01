@@ -25,6 +25,6 @@ apt-get -q --no-allow-insecure-repositories update              \
     && rm -rf /var/lib/apt/lists/*
 
 
-## Pandoc and Hugo
-wget https://github.com/jgm/pandoc/releases/download/2.16.2/pandoc-2.16.2-1-arm64.deb       && dpkg -i pandoc*.deb && rm pandoc*.deb
-wget https://github.com/gohugoio/hugo/releases/download/v0.91.2/hugo_0.91.2_Linux-ARM64.deb && dpkg -i hugo*.deb   && rm hugo*.deb
+## Pandoc and Hugo (linux/arm64)
+wget https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-1-arm64.deb   && dpkg -i pandoc*.deb && rm pandoc*.deb
+wget https://github.com/gohugoio/hugo/releases/download/v0.92.1/hugo_0.92.1_Linux-ARM64.deb && dpkg -i hugo*.deb   && rm hugo*.deb
