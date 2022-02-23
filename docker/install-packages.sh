@@ -14,6 +14,7 @@ apt-get -q --no-allow-insecure-repositories update              \
         wget                                                    \
         perl                                                    \
         tar                                                     \
+        zip                                                     \
         libfreetype6                                            \
         libfontconfig1                                          \
         fontconfig                                              \
