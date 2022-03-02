@@ -31,4 +31,4 @@ apt-get -q --no-allow-insecure-repositories update              \
 wget https://github.com/jgm/pandoc/releases/download/2.17.1.1/pandoc-2.17.1.1-1-arm64.deb   && dpkg -i pandoc*.deb && rm pandoc*.deb
 
 ## https://github.com/gohugoio/hugo/releases/latest/
-wget https://github.com/gohugoio/hugo/releases/download/v0.92.2/hugo_0.92.2_Linux-ARM64.deb && dpkg -i hugo*.deb   && rm hugo*.deb
+wget https://github.com/gohugoio/hugo/releases/download/v0.93.1/hugo_0.93.1_Linux-ARM64.deb && dpkg -i hugo*.deb   && rm hugo*.deb
