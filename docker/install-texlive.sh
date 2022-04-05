@@ -58,7 +58,12 @@ tlmgr install beamertheme-metropolis      \
 ## Install extra packages for LaTeX conversion to .png
 tlmgr install standalone    \
               filemod       \
-              currfile      || exit 1
+              currfile      \
+              mathtools     \
+              gincltex      \
+              svn-prov      \
+              adjustbox     \
+              collectbox    || exit 1
 
 # Clean up
 rm -rf /opt/texlive/texdir/texmf-dist/doc        \
